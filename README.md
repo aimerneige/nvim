@@ -1,7 +1,5 @@
 # My nvim config
 
-**WARNING! This config is stilling on building!**
-
 ## About
 
 This is my own nvim config.
