@@ -1,0 +1,2 @@
+" for theme
+colorscheme gruvbox
