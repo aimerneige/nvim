@@ -1,6 +1,4 @@
 let g:coc_global_extensions = [
-    \'coc-marketplace',
-    \'coc-omnisharp',
     \'coc-vimlsp',
     \'coc-python',
     \'coc-clangd',
