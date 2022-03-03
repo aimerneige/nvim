@@ -50,5 +50,10 @@ if !has('gui_running')
   set t_Co=256
 endif
 
+augroup RestoreCursorShapeOnExit
+    autocmd!
+    autocmd VimLeave * set guicursor=a:hor20
+augroup END
+
 " set spell spelllang=en_us
 " au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
