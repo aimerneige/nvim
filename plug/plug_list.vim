@@ -17,23 +17,22 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 Plug 'honza/vim-snippets'
 Plug 'morhetz/gruvbox'
 
+" auto completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-
-
-call plug#end()
-
+Plug 'stevearc/vim-arduino'
 
 " beautify
-
-" Plug 'hardcoreplayers/vim-buffet'
-" Plug 'ryanoasis/vim-devicons'
-" Plug 'hardcoreplayers/dashboard-nvim'
+Plug 'bagrat/vim-buffet'
+Plug 'ryanoasis/vim-devicons'
+Plug 'hardcoreplayers/dashboard-nvim'
 
 " theme
-" Plug 'kristijanhusak/vim-hybrid-material'
-" Plug 'hardcoreplayers/oceanic-material'
-" Plug 'liuchengxu/space-vim-theme'
+Plug 'kristijanhusak/vim-hybrid-material'
+Plug 'glepnir/oceanic-material'
+Plug 'liuchengxu/space-vim-theme'
+
+call plug#end()
 
 " function
 " Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary!' }
