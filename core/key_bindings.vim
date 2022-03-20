@@ -23,6 +23,11 @@ map <F4> :PlugUpdate<CR>
 
 map <LEADER>sc :set spell!<CR>
 
+noremap <Tab> :bn<CR>
+noremap <S-Tab> :bp<CR>
+noremap <Leader><Tab> :Bw<CR>
+noremap <Leader><S-Tab> :Bw!<CR>
+
 " " noremap tn :tabe<CR>
 " " noremap ta :-tabnext<CR>
 " " noremap td :+tabnext<CR>

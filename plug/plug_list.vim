@@ -12,10 +12,9 @@ Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
 " Plug 'ashisha/image.vim'
 Plug 'preservim/nerdtree'
-Plug 'ryanoasis/vim-devicons'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'honza/vim-snippets'
-Plug 'morhetz/gruvbox'
+
 
 " auto completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -23,11 +22,13 @@ Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'stevearc/vim-arduino'
 
 " beautify
+Plug 'ryanoasis/vim-devicons'
 Plug 'bagrat/vim-buffet'
 Plug 'ryanoasis/vim-devicons'
 Plug 'hardcoreplayers/dashboard-nvim'
 
 " theme
+Plug 'morhetz/gruvbox'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'glepnir/oceanic-material'
 Plug 'liuchengxu/space-vim-theme'
