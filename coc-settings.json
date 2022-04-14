@@ -39,7 +39,8 @@
     "vue",
     "c",
     "cpp",
-    "go"
+    "go",
+    "rust"
   ],
   "diagnostic.errorSign": "\uf467",
   "diagnostic.warningSign": "\uf071",
