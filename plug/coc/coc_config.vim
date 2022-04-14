@@ -6,6 +6,8 @@ let g:coc_global_extensions = [
     \'coc-java',
     \'coc-html',
     \'coc-yaml',
+    \'coc-rls',
+    \'coc-rust-analyzer',
     \'coc-css',
     \'coc-xml',
     \'coc-sql',
