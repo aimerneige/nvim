@@ -15,11 +15,13 @@ Plug 'preservim/nerdtree'
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'honza/vim-snippets'
 
-
 " auto completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'stevearc/vim-arduino'
+
+" lint
+Plug 'dense-analysis/ale'
 
 " beautify
 Plug 'ryanoasis/vim-devicons'
