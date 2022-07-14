@@ -14,7 +14,6 @@ let g:coc_global_extensions = [
     \'coc-git',
     \'coc-go',
     \'coc-sh',
-    \'coc-spell-checker',
     \'coc-translator',
     \'coc-pairs',
     \'coc-syntax',
