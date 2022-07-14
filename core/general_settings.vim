@@ -1,6 +1,6 @@
 syntax on
 set number
-set relativenumber
+set norelativenumber
 set cursorline
 set showmode
 set wrap
