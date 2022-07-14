@@ -10,8 +10,13 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
-" Plug 'ashisha/image.vim'
+
+" nerd tree
 Plug 'preservim/nerdtree'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+Plug 'PhilRunninger/nerdtree-buffer-ops'
+
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 Plug 'honza/vim-snippets'
 
@@ -26,8 +31,7 @@ Plug 'dense-analysis/ale'
 " beautify
 Plug 'ryanoasis/vim-devicons'
 Plug 'bagrat/vim-buffet'
-Plug 'ryanoasis/vim-devicons'
-Plug 'hardcoreplayers/dashboard-nvim'
+Plug 'glepnir/dashboard-nvim'
 
 " theme
 Plug 'morhetz/gruvbox'
@@ -62,7 +66,6 @@ call plug#end()
 
 " Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
 " Plug 'iamcco/markdown-preview.nvim', {'do':'cd app & npm install', 'for': 'markdown'  }
-" Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 " Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/fzf', 'do': './install --all' }
 " Plug 'junegunn/fzf.vim'
 " Plug 'scrooloose/nerdcommenter'
