@@ -37,28 +37,11 @@ autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTr
 autocmd BufEnter * if bufname('#') =~ 'NERD_tree_\d\+' && bufname('%') !~ 'NERD_tree_\d\+' && winnr('$') > 1 |
     \ let buf=bufnr() | buffer# | execute "normal! \<C-W>w" | execute 'buffer'.buf | endif
 
-
-
-" settings for vim-buffet
-let g:buffet_powerline_separators = 1
-let g:buffet_tab_icon = "\uf00a"
-let g:buffet_left_trunc_icon = "\uf0a8"
-let g:buffet_right_trunc_icon = "\uf0a9"
-
-" settings for markdown-preview
-" noremap <C-r> <Plug>MarkdownPreview
-
-
 " settings for vim-airline
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#left_sep = ' '
 let g:airline#extensions#tabline#left_alt_sep = '|'
-let g:airline#extensions#tabline#formatter = 'default'
-
-" settings for vim-airline-themes
-" keep this and use the default theme
-" let g:airline_theme='simple'
-
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 " vim-gitgutter
 set updatetime=500

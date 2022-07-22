@@ -14,9 +14,9 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 source ~/.config/nvim/core/general_settings.vim
-source ~/.config/nvim/core/key_bindings.vim
 source ~/.config/nvim/core/special_config.vim
 source ~/.config/nvim/core/language_config.vim
 source ~/.config/nvim/plug/plug_list.vim
 source ~/.config/nvim/plug/plug_settings.vim
 source ~/.config/nvim/theme/theme.vim
+source ~/.config/nvim/core/key_bindings.vim

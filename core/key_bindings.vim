@@ -16,10 +16,12 @@ map <C-l> <C-w>l
 map <LEADER>/ :vsplit<CR>
 map <LEADER>- :split<CR>
 
-map <F1> :edit ~/.config/nvim/init.vim<CR>
-map <F2> :source ~/.config/nvim/init.vim<CR>
-map <F3> :PlugInstall<CR>
-map <F4> :PlugUpdate<CR>
+" map <F1> :edit ~/.config/nvim/init.vim<CR>
+" map <F2> :source ~/.config/nvim/init.vim<CR>
+" map <F3> :PlugInstall<CR>
+" map <F4> :PlugUpdate<CR>
+
+nmap <F8> :TagbarToggle<CR>
 
 map <LEADER>sc :set spell!<CR>
 
@@ -37,3 +39,5 @@ noremap <Leader><S-Tab> :Bw!<CR>
 " map <LEADER><LEADER> <ESC>/<++><CR>:nohlsearch<CR>j4d
 
 " vnoremap <C-c> "+y
+
+" noremap <C-r> <Plug>MarkdownPreview

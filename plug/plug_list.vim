@@ -2,14 +2,17 @@ call plug#begin('~/.config/nvim/plugged')
 " Add Plug here
 " eg：Plug 'user/repository'
 
+" tool
 Plug 'tpope/vim-surround'
 Plug 'luochen1990/rainbow'
-Plug 'vim-airline/vim-airline'
-Plug 'vim-airline/vim-airline-themes'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-commentary'
 Plug 'airblade/vim-gitgutter'
 Plug 'editorconfig/editorconfig-vim'
+Plug 'preservim/tagbar'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 
 " nerd tree
 Plug 'preservim/nerdtree'
@@ -17,27 +20,36 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'PhilRunninger/nerdtree-buffer-ops'
 
+Plug 'kyazdani42/nvim-tree.lua'
+
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'honza/vim-snippets'
 
 " auto completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'honza/vim-snippets'
+
+" language support
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'stevearc/vim-arduino'
+Plug 'chrisbra/csv.vim'
 
 " lint
 Plug 'dense-analysis/ale'
 
 " beautify
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'ryanoasis/vim-devicons'
-Plug 'bagrat/vim-buffet'
-Plug 'glepnir/dashboard-nvim'
+Plug 'kyazdani42/nvim-web-devicons'
+"  Plug 'glepnir/dashboard-nvim'
 
 " theme
 Plug 'morhetz/gruvbox'
 Plug 'kristijanhusak/vim-hybrid-material'
 Plug 'glepnir/oceanic-material'
 Plug 'liuchengxu/space-vim-theme'
+Plug 'EdenEast/nightfox.nvim'
+Plug 'jacoborus/tender.vim'
 
 call plug#end()
 
@@ -65,9 +77,6 @@ call plug#end()
 " Plug 'Chiel92/vim-autoformat', {'on':'Autoformat'}
 
 " Plug 'dhruvasagar/vim-table-mode', { 'for': 'markdown' }
-" Plug 'iamcco/markdown-preview.nvim', {'do':'cd app & npm install', 'for': 'markdown'  }
-" Plug 'junegunn/fzf', { 'dir': '~/.vim/bundle/fzf', 'do': './install --all' }
-" Plug 'junegunn/fzf.vim'
 " Plug 'scrooloose/nerdcommenter'
 " Plug 'neoclide/coc.nvim',{'branch':'release'}
 " Plug 'jiangmiao/auto-pairs'
@@ -99,17 +108,7 @@ call plug#end()
 
 
 " @ potamides
-" " Specify a directory for plugins
-" call plug#begin('~/.local/share/nvim/plugged')
-" Plug 'morhetz/gruvbox'
-" Plug 'itchyny/lightline.vim'
-" Plug 'mgee/lightline-bufferline'
-" Plug 'ryanoasis/vim-devicons'
 " Plug 'unblevable/quick-scope'
-" Plug 'honza/vim-snippets'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plug 'hanw/vim-bluespec'
 " Plug 'potamides/painless-digraph'
 " Plug 'norcalli/nvim-colorizer.lua'
-" call plug#end()
-
