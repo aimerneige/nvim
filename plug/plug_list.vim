@@ -13,6 +13,7 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'preservim/tagbar'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'voldikss/vim-floaterm'
 
 " nerd tree
 Plug 'preservim/nerdtree'
