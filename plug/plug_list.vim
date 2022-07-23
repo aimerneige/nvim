@@ -14,6 +14,7 @@ Plug 'preservim/tagbar'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'voldikss/vim-floaterm'
+Plug 'easymotion/vim-easymotion'
 
 " nerd tree
 Plug 'preservim/nerdtree'
@@ -38,6 +39,7 @@ Plug 'dense-analysis/ale'
 " beautify
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'bagrat/vim-buffet'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
 "  Plug 'glepnir/dashboard-nvim'
