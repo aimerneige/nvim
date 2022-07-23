@@ -12,9 +12,10 @@ let g:hybrid_transparent_background = 1
 
 " colorscheme gruvbox
 " colorscheme oceanic_material
-colorscheme nightfox
-"  colorscheme space_vim_theme
+" colorscheme nightfox
+" colorscheme space_vim_theme
 " colorscheme tender
+colorscheme vim-monokai-tasty
 
 " set airline theme
 let g:airline_theme='deus'

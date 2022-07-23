@@ -48,6 +48,7 @@ Plug 'glepnir/oceanic-material'
 Plug 'liuchengxu/space-vim-theme'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'jacoborus/tender.vim'
+Plug 'patstockwell/vim-monokai-tasty'
 
 call plug#end()
 
