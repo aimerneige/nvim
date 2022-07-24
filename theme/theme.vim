@@ -8,8 +8,8 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:enable_bold_font = 1
 let g:enable_italic_font = 1
 let g:hybrid_transparent_background = 1
-" colorscheme hybrid_material
 
+" colorscheme hybrid_material
 " colorscheme gruvbox
 " colorscheme oceanic_material
 " colorscheme nightfox
