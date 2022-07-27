@@ -67,3 +67,9 @@ nmap <Leader>L <Plug>(easymotion-overwin-line)
 " Move to word
 map  <Leader>w <Plug>(easymotion-bd-w)
 nmap <Leader>w <Plug>(easymotion-overwin-w)
+
+" Floaterm New
+noremap <C-t> :FloatermNew<CR>
+
+" vim-go
+noremap <F2> :GoRename<CR>

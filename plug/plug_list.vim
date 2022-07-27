@@ -3,6 +3,7 @@ call plug#begin('~/.config/nvim/plugged')
 " eg：Plug 'user/repository'
 
 " tool
+Plug 'gcmt/wildfire.vim'
 Plug 'tpope/vim-surround'
 Plug 'luochen1990/rainbow'
 Plug 'ctrlpvim/ctrlp.vim'
@@ -39,6 +40,7 @@ Plug 'dense-analysis/ale'
 " beautify
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'rakr/vim-one'
 Plug 'bagrat/vim-buffet'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
@@ -52,6 +54,7 @@ Plug 'liuchengxu/space-vim-theme'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'jacoborus/tender.vim'
 Plug 'patstockwell/vim-monokai-tasty'
+Plug 'joshdick/onedark.vim'
 
 call plug#end()
 
