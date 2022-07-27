@@ -16,6 +16,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'voldikss/vim-floaterm'
 Plug 'easymotion/vim-easymotion'
+Plug 'HendrikPetertje/vimify'
 
 " nerd tree
 Plug 'preservim/nerdtree'
@@ -44,7 +45,7 @@ Plug 'rakr/vim-one'
 Plug 'bagrat/vim-buffet'
 Plug 'ryanoasis/vim-devicons'
 Plug 'kyazdani42/nvim-web-devicons'
-"  Plug 'glepnir/dashboard-nvim'
+Plug 'mhinz/vim-startify'
 
 " theme
 Plug 'morhetz/gruvbox'
