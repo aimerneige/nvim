@@ -15,9 +15,10 @@ let g:hybrid_transparent_background = 1
 " colorscheme nightfox
 " colorscheme space_vim_theme
 " colorscheme tender
-" colorscheme vim-monokai-tasty
-colorscheme onedark
+colorscheme vim-monokai-tasty
+" colorscheme onedark
 
 " set airline theme
-let g:airline_theme='one'
-" let g:airline_theme = 'tender'
+" let g:airline_theme = 'one'
+" let g:airline_theme ='tender'
+let g:airline_theme = 'monokai_subtle'

@@ -56,6 +56,7 @@ Plug 'EdenEast/nightfox.nvim'
 Plug 'jacoborus/tender.vim'
 Plug 'patstockwell/vim-monokai-tasty'
 Plug 'joshdick/onedark.vim'
+Plug 'Yavor-Ivanov/airline-monokai-subtle.vim'
 
 call plug#end()
 
