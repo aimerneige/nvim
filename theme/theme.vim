@@ -10,15 +10,16 @@ let g:enable_italic_font = 1
 let g:hybrid_transparent_background = 1
 
 " colorscheme hybrid_material
-" colorscheme gruvbox
+colorscheme gruvbox
 " colorscheme oceanic_material
 " colorscheme nightfox
 " colorscheme space_vim_theme
 " colorscheme tender
-colorscheme vim-monokai-tasty
+" colorscheme vim-monokai-tasty
 " colorscheme onedark
 
 " set airline theme
 " let g:airline_theme = 'one'
 " let g:airline_theme ='tender'
-let g:airline_theme = 'monokai_subtle'
+let g:airline_theme = 'gruvbox'
+" let g:airline_theme = 'monokai_subtle'
