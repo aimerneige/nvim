@@ -34,6 +34,7 @@ Plug 'honza/vim-snippets'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'stevearc/vim-arduino'
 Plug 'chrisbra/csv.vim'
+Plug 'gisphm/vim-gitignore'
 
 " lint
 Plug 'dense-analysis/ale'

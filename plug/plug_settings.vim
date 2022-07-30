@@ -70,6 +70,7 @@ nmap <Leader>w <Plug>(easymotion-overwin-w)
 
 " Floaterm New
 noremap <C-t> :FloatermNew<CR>
+noremap lg :FloatermNew lazygit<CR>
 
 " vim-go
 noremap <F2> :GoRename<CR>

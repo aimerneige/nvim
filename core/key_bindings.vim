@@ -34,8 +34,6 @@ noremap <Leader><S-Tab> :Bw!<CR>
 " " noremap ta :-tabnext<CR>
 " " noremap td :+tabnext<CR>
 
-noremap lg :FloatermNew lazygit<CR>
-
 " map <LEADER><LEADER> <ESC>/<++><CR>:nohlsearch<CR>j4d
 
 " vnoremap <C-c> "+y
