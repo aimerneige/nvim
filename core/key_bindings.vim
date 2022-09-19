@@ -29,6 +29,7 @@ noremap <Tab> :bn<CR>
 noremap <S-Tab> :bp<CR>
 noremap <Leader><Tab> :Bw<CR>
 noremap <Leader><S-Tab> :Bw!<CR>
+noremap <C-f> :Explore<CR>
 
 " " noremap tn :tabe<CR>
 " " noremap ta :-tabnext<CR>
