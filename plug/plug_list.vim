@@ -25,7 +25,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
 
 " language support
-Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'stevearc/vim-arduino'
 Plug 'chrisbra/csv.vim'
 Plug 'gisphm/vim-gitignore'

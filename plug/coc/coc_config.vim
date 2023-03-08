@@ -12,7 +12,6 @@ let g:coc_global_extensions = [
     \'coc-xml',
     \'coc-sql',
     \'coc-git',
-    \'coc-go',
     \'coc-sh',
     \'coc-translator',
     \'coc-pairs',
