@@ -7,6 +7,7 @@ let g:coc_global_extensions = [
     \'coc-html',
     \'coc-yaml',
     \'coc-rls',
+    \'coc-go',
     \'coc-rust-analyzer',
     \'coc-css',
     \'coc-xml',

@@ -23,11 +23,13 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': 
 " auto completion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
+Plug 'github/copilot.vim'
 
 " language support
 Plug 'stevearc/vim-arduino'
 Plug 'chrisbra/csv.vim'
 Plug 'gisphm/vim-gitignore'
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 " lint
 Plug 'dense-analysis/ale'
